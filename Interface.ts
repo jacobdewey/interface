@@ -1,6 +1,6 @@
 // Add your code here
 namespace interfaces{
-export declare interface cars{
+export interface cars {
 "yourInvenory":{
 "yourInvenoryPassword": 12345,
 "yourCars":{
@@ -15,38 +15,23 @@ export declare interface cars{
 "YourTesla":{
 "Model": "S"
 }
-
-
-
-
-
+}
+}
+}
 }
 
 
 
 
 
-
-
-}
-
-
-
+type Car={
+g: interfaces.cars
 
 
 
 }
 
 
-
-
-
-
-
-
-
-
-}
 
 
 

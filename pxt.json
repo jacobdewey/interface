@@ -10,7 +10,8 @@
         "README.md",
         "main.blocks",
         "main.ts",
-        "Interface.ts"
+        "Interface.ts",
+        "Blocks.ts"
     ],
     "testFiles": [
         "test.ts"
