@@ -2,7 +2,6 @@
 namespace interfaces{
 export interface cars {
 "yourInvenory":{
-"yourInvenoryPassword": 12345,
 "yourCars":{
 "car_one":{
 "Make": "Tesla",
@@ -16,32 +15,71 @@ export interface cars {
 "Model": "S"
 }
 }
+"car_three":{
+"Make": "MinyVan"
 }
 }
 }
-
-
-
-
-
-type Car={
-g: interfaces.cars
-
-
-
+"allTypes":{
+"Tesla":{
+"Model":{
+"Model_One": "X",
+"Model_Two": "S",
+"Model_Three": "3"
 }
-
-
-
-
-
-
-
-
+}
+"MinyVan":{
+"Model":{
+//  non yet
+}
 
 
 
 }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

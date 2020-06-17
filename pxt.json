@@ -11,7 +11,8 @@
         "main.blocks",
         "main.ts",
         "Interface.ts",
-        "Blocks.ts"
+        "Blocks.ts",
+        "Enum.d.ts"
     ],
     "testFiles": [
         "test.ts"
