@@ -40,9 +40,8 @@ export interface cars {
 declare interface shop{
 money: number;
 product:{
-description: string;
-cost: number;
 name: string;
+cost: number;
 amountInStock: number
 }
 
@@ -52,9 +51,9 @@ amountInStock: number
 
 
 }
-//% blockId= ShopProduct block="ShopProduct |description: %string|cost: %number|name: %string|amountInStock: %number|"
-export function ShopProduct(b: string, c: number, d: string, e: number): shop["product"]{
-return {description: b, cost: c, name: d, amountInStock: e}
+//% blockId= ShopProduct block="ShopProduct |name: %string|cost: %number|amountInStock: %number|"
+export function ShopProduct(b: string, c: number, e: number): shop["product"]{
+return {name: b, cost: c, amountInStock: e}
 
 
 
