@@ -1,5 +1,6 @@
-// Add your code here
+//% weight=100 color=#333333 icon="\uf234"
 namespace interfaces{
+/** 
 export interface cars {
 "yourInvenory":{
 "yourCars":{
@@ -32,6 +33,29 @@ export interface cars {
 "Model":{
 //  non yet
 }
+}
+}
+}
+*/
+declare interface shop{
+money: number;
+product:{
+description: string;
+cost: number;
+name: string;
+amountInStock: number
+}
+
+
+
+
+
+
+}
+//% blockId= ShopProduct block="ShopProduct |description: %string|cost: %number|name: %string|amountInStock %number"
+export function ShopProduct(b: string, c: number, d: string, e: number): shop["product"]{
+return {description: b, cost: c, name: d, amountInStock: e}
+
 
 
 
@@ -41,7 +65,6 @@ export interface cars {
 
 
 
-}
 
 
 
@@ -50,10 +73,6 @@ export interface cars {
 
 
 
-
-
-
-}
 
 
 
@@ -62,6 +81,12 @@ export interface cars {
 
 
 }
+
+
+
+
+
+
 
 
 
