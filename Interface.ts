@@ -41,8 +41,7 @@ declare interface shop{
 money: number;
 product:{
 name: string;
-cost: number;
-amountInStock: number
+cost: number
 }
 
 
@@ -51,9 +50,9 @@ amountInStock: number
 
 
 }
-//% blockId= ShopProduct block="ShopProduct |name: %string|cost: %number|amountInStock: %number|"
-export function ShopProduct(b: string, c: number, e: number): shop["product"]{
-return {name: b, cost: c, amountInStock: e}
+//% blockId= ShopProduct block="ShopProduct |name: %string|cost: %number|"
+export function ShopProduct(b: string, c: number): shop["product"]{
+return {name: b, cost: c}
 
 
 
