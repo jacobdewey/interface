@@ -5,8 +5,7 @@ input.onButtonPressed(Button.B, function () {
     interfaces.addToShop(interfaces.ShopProduct(
     "",
     0,
-    "",
-    0,
-    ""
+    "Emoji",
+    0
     ))
 })
