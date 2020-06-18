@@ -53,7 +53,7 @@ yourName: string
 
 
 }
-//% blockId= ShopProduct block="ShopProduct |description: %string|cost: %number|name: %string|amountInStock %number|yourName %string"|
+//% blockId= ShopProduct block="ShopProduct |description: %string|cost: %number|name: %string|amountInStock: %number|yourName: %string"|
 export function ShopProduct(b: string, c: number, d: string, e: number, a: string): shop["product"]{
 return {description: b, cost: c, name: d, amountInStock: e, yourName: a}
 
