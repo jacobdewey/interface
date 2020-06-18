@@ -43,7 +43,8 @@ product:{
 description: string;
 cost: number;
 name: string;
-amountInStock: number
+amountInStock: number;
+yourName: string
 }
 
 
@@ -52,16 +53,18 @@ amountInStock: number
 
 
 }
-//% blockId= ShopProduct block="ShopProduct |description: %string|cost: %number|name: %string|amountInStock %number"
-export function ShopProduct(b: string, c: number, d: string, e: number): shop["product"]{
-return {description: b, cost: c, name: d, amountInStock: e}
+//% blockId= ShopProduct block="ShopProduct |description: %string|cost: %number|name: %string|amountInStock %number|yourName %string"|
+export function ShopProduct(b: string, c: number, d: string, e: number, a: string): shop["product"]{
+return {description: b, cost: c, name: d, amountInStock: e, yourName: a}
 
 
 
 
 }
+//% block
+export function BuyFromShop(): void{
 
-
+}
 
 
 
