@@ -75,10 +75,21 @@ console.log(console.inspect("name: "+c))
 
 
 }
+declare interface money {
+Money: number
 
 
+}
+//% blockId= moneyHelper block="moneyHelper |Money: %number|"
+export function moneyHelper(b: number): money{
+return {Money: b}
 
 
+}
+//% block
+export function printMoney(x: money): void{
+console.log("Money: " + x)
+}
 
 
 
