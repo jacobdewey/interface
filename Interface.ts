@@ -62,7 +62,20 @@ return {description: b, cost: c, name: d, amountInStock: e, yourName: a}
 
 }
 //% block
-export function BuyFromShop(): void{
+export function addToShop(x: shop["product"]): void{
+console.log(x)
+
+
+
+}
+//% blockId= BuyFromShop block="Buy|product with name: %string| from shop"
+export function BuyFromShop(c: string): void{
+console.inspect("name: "+c)
+
+
+
+
+
 
 }
 
